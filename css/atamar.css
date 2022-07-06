@@ -1,0 +1,28 @@
+@import url(../fonts/Montserrat-Regular.css);
+@import url(../fonts/Montserrat-Bold.css);
+
+.bg-green {
+    background-color: #52503B;
+}
+
+.bg-beige {
+    background-color: #FAF8F0;
+}
+
+.m-norm {
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+
+.m-bold {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.orange-block {
+    width: 2.625rem;
+    height: 0.5rem;
+    background: #E08631;
+}
