@@ -599,7 +599,7 @@ a {
     font-size: 16px;
     line-height: 20px;
     color: #52503B;
-    transition: all 0.3s linear;
+    transition: all 0.3s ease;
 }
 
 .button-footer-text2 {
@@ -613,8 +613,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 7.25em;
-    height: 3.25em;
+    width: 7.25rem;
+    height: 3.25rem;
     border: 4px solid #52503B;
     border-radius: 6px;
     transition: all 0.3s linear;
@@ -627,6 +627,45 @@ a {
 .button-footer1:hover .button-footer-text1 {
     color: #FFFFFF;
 }
+/* .btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.25rem;
+    height: 3.25rem;
+    color: white;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    border: 4px solid #52503B;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: 1.5s all ease;
+}
+.btn::before{
+    background-color: #52503B;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 1s ease;
+}
+.btn4::before{
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+.btn4:hover::before{
+    height: 380%;
+    z-index: 1;
+}
+.btn4:hover p {
+    color: #FFFFFF;
+    z-index: 2;
+} */
 
 .button-footer2 {
     display: flex;
